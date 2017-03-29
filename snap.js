@@ -74,4 +74,3 @@ $( document ).ready( function () {
       $(this).prop('disabled', false); 
     });
 })
-
