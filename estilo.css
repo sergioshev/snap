@@ -1,0 +1,70 @@
+#id-header {
+  width: 100%; 
+}
+
+#id-logo-kran {
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+}
+
+#id-header > * {
+  float: left;
+}
+
+#id-torre1-container > * {
+  float: left;
+}
+
+#id-torre2-container > * {
+  float: left;
+}
+
+.class-snap-container {
+  padding-right: 30px;
+}
+
+.class-dosif-container {
+  visibility: hidden;
+}
+
+
+.table-snap tr:nth-child(odd){background-color: rgba(153, 255, 250, 0.65)}
+.table-dosif tr:nth-child(odd){background-color: rgba(153, 255, 250, 0.65)}
+
+table {
+  border: 1px grey solid;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+td {
+  border: 1px grey solid;
+}
+
+p {
+  margin: 1px;
+  font-weight: bold;
+}
+
+.error {
+  background-color: #FF6B6B;
+  font-weight: bold;
+}
+
+.success {
+/*  background-color: #5DB74A;*/
+  background-color: #00FF00;
+  font-weight: bold;
+}
+
+
+.button {
+    background-color: #009999;;
+    border-radius: 8px;    
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
